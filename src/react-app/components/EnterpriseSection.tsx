@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowRight, TrendingUp, Shield, DollarSign, Users } from 'lucide-react';
+import { ArrowRight, TrendingUp, Shield, Users } from 'lucide-react';
 
 const useInView = (options?: IntersectionObserverInit) => {
   const [isInView, setIsInView] = useState(false);
