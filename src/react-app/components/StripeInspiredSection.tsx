@@ -168,15 +168,29 @@ const CheckoutCard = () => {
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-md"
                 />
                 <h3 className="font-semibold text-gray-800">Financial Wellness Plan</h3>
-                <p className="text-2xl font-bold text-gray-900 mt-1 mb-4">₹499</p>
+                <p className="text-2xl font-bold text-gray-900 mt-1 mb-4">FREE</p>
 
-                <div className="space-y-3">
-                    <a href="#" className="w-full bg-black text-white font-semibold py-3 rounded-lg flex items-center justify-center hover:bg-gray-800 transition-colors">
-                        <IoLogoApple className="w-6 h-6 mr-2" /> Pay
-                    </a>
-                    <a href="#" className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
-                        <FaCreditCard className="w-5 h-5 mr-2" /> Pay with Card
-                    </a>
+                {/* Button container with overlay */}
+                <div className="relative">
+                    <div className="space-y-3 opacity-50 pointer-events-none">
+                        <a
+                            href="#"
+                            className="w-full bg-black text-white font-semibold py-3 rounded-lg flex items-center justify-center transition-colors"
+                        >
+                            <IoLogoApple className="w-6 h-6 mr-2" /> Pay
+                        </a>
+                        <a
+                            href="#"
+                            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg flex items-center justify-center transition-colors"
+                        >
+                            <FaCreditCard className="w-5 h-5 mr-2" /> Pay with Card
+                        </a>
+                    </div>
+
+                    {/* Overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 rounded-lg">
+                        <span className="text-white font-bold text-lg">Coming Soon</span>
+                    </div>
                 </div>
 
                 <div className="text-xs text-gray-400 mt-4">
@@ -184,6 +198,7 @@ const CheckoutCard = () => {
                 </div>
             </div>
         </Card>
+
     );
 };
 

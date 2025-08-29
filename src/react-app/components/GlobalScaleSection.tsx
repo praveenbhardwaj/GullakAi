@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { DollarSign, Zap, Shield, TrendingUp } from 'lucide-react';
+import { FaRupeeSign } from 'react-icons/fa';
 
 export default function GlobalScaleSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,7 +29,7 @@ export default function GlobalScaleSection() {
       number: 'Bank-Level Security',
       label: 'Your data is protected with',
       detail: 'AES-256 encryption',
-      icon: DollarSign,
+      icon: FaRupeeSign,
     },
     {
       number: 'End-to-End Encryption',
@@ -68,7 +69,7 @@ export default function GlobalScaleSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden relative z-20">
+    <section id='compliance' ref={sectionRef} className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden relative z-20">
       {/* Animated Background */}
       <div className="absolute inset-0">
         {/* Financial Network Lines */}
@@ -126,7 +127,9 @@ export default function GlobalScaleSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-purple-500/20 rounded-full animate-spin-slow" />
               <div className="absolute inset-4 bg-gradient-to-r from-blue-500/30 to-indigo-500/30 rounded-full animate-pulse" />
               <div className="absolute inset-8 bg-gradient-to-r from-orange-400/40 to-purple-400/40 rounded-full animate-bounce-slow" />
-              <DollarSign size={120} className="absolute inset-0 m-auto text-white/80" />
+              <div className="absolute inset-0 m-auto text-white/80 text-[120px] font-bold flex items-center justify-center">
+  ₹
+</div>
               
               {/* Orbiting transaction indicators */}
               {Array.from({ length: 6 }).map((_, i) => (
@@ -138,7 +141,7 @@ export default function GlobalScaleSection() {
                     transformOrigin: '128px 128px',
                   }}
                 >
-                  $
+                  ₹
                 </div>
               ))}
             </div>

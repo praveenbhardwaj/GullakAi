@@ -138,8 +138,8 @@ export default function HeroSection() {
             </div>
           </div>
           {/* Right side: Phone animation */}
-          <div className="lg:sticky lg:top-24 h-auto lg:h-[calc(100vh-6rem)] flex items-center justify-center lg:justify-end">
-            <div className="w-full max-w-[300px] lg:max-w-none lg:translate-x-12">
+          <div className="flex items-center justify-center lg:justify-end">
+            <div className="w-full max-w-[300px] lg:max-w-[350px]">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9, y: 40 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}

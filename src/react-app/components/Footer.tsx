@@ -53,12 +53,16 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">G</span>
-              </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-400 bg-clip-text text-transparent">
-                Gullak AI
-              </span>
+              <div className="flex items-center space-x-1">
+            <img
+              src="/logo.png"
+              alt="Gullak AI Logo"
+              className="w-12 h-12 object-contain"
+            />
+            <span className="text-xl font-bold bg-gradient-to-r from-orange-500 to-purple-600 bg-clip-text text-transparent">
+              Gullak AI
+            </span>
+          </div>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -76,7 +80,7 @@ export default function Footer() {
               ].map(({ icon: Icon, label }) => (
                 <a
                   key={label}
-                  href="#"
+                  href=""
                   className="w-10 h-10 bg-gray-800 hover:bg-gradient-to-r hover:from-orange-500 hover:to-purple-600 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
                   aria-label={label}
                 >
@@ -96,7 +100,7 @@ export default function Footer() {
                 {section.links.map((link) => (
                   <li key={link}>
                     <a
-                      href="#"
+  
                       className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
                     >
                       {link}
@@ -140,16 +144,16 @@ export default function Footer() {
             </div>
             
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
+              <a href="" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
+              <a href="" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
+              <a href="" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
                 Cookie Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
+              <a href="" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
                 Compliance
               </a>
               
