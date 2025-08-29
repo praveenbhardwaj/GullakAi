@@ -57,12 +57,12 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">G</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-400 bg-clip-text text-transparent">
-                Gulllak AI
+                Gullak AI
               </span>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Gulllak AI is your smart financial dashboard to track expenses, manage loans, grow investments, 
+              Gullak AI is your smart financial dashboard to track expenses, manage loans, grow investments, 
               and project your net worth with powerful, AI-driven insights.
             </p>
 
@@ -136,7 +136,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2024 Gulllak AI. All rights reserved. Financial services powered by artificial intelligence.
+              © 2024 Gullak AI. All rights reserved. Financial services powered by artificial intelligence.
             </div>
             
             <div className="flex items-center space-x-6 mt-4 md:mt-0">

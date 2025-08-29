@@ -54,7 +54,7 @@ export default function ProductsSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From daily spending to long-term investments, Gulllak AI brings everything together to give you a clear view of your financial life.
+            From daily spending to long-term investments, Gullak AI brings everything together to give you a clear view of your financial life.
           </p>
         </div>
 
@@ -104,12 +104,12 @@ export default function ProductsSection() {
                   </div>
 
                   {/* CTA */}
-                  <button className={`group/btn flex items-center text-sm font-semibold transition-colors ${
+                  {/* <button className={`group/btn flex items-center text-sm font-semibold transition-colors ${
                     isActive ? 'text-orange-600' : 'text-gray-500 hover:text-orange-600'
                   }`}>
                     Learn more
                     <ArrowRight size={16} className="ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             );

@@ -75,7 +75,7 @@ export default function EnterpriseSection() {
     {
       company: 'Anjali K.',
       logo: 'AK',
-      quote: 'Managing my student loans felt overwhelming. Gulllak AI created a clear payoff plan, and I\'m on track to be debt-free years early.',
+      quote: 'Managing my student loans felt overwhelming. Gullak AI created a clear payoff plan, and I\'m on track to be debt-free years early.',
       author: 'Anjali K.',
       role: 'Graphic Designer',
       color: 'from-blue-500 to-cyan-500',
@@ -98,7 +98,7 @@ export default function EnterpriseSection() {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Whether you're saving for a big purchase, paying off debt, or building wealth for the future, 
-            Gulllak AI provides the tools and insights you need to succeed.
+            Gullak AI provides the tools and insights you need to succeed.
           </p>
           
           <button className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 flex items-center mx-auto">
@@ -154,7 +154,7 @@ export default function EnterpriseSection() {
               Loved by users like you
             </h3>
             <p className="text-gray-600 text-lg">
-              People from all walks of life use Gulllak AI to take control of their finances 
+              People from all walks of life use Gullak AI to take control of their finances 
               and build a better future.
             </p>
           </div>

@@ -1,4 +1,4 @@
-## Gulllak AI
+## Gullak AI
 
 To run the devserver:
 ```

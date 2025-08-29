@@ -61,7 +61,7 @@ export default function StripeInspiredSection() {
                         </span>
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        From checkout to your dashboard, Gulllak AI connects every part of your financial life with powerful, automated insights.
+                        From checkout to your dashboard, Gullak AI connects every part of your financial life with powerful, automated insights.
                     </p>
                 </div>
 
