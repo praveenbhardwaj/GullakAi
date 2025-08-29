@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { DollarSign, Zap, Shield, TrendingUp } from 'lucide-react';
+import {  Zap, Shield, TrendingUp } from 'lucide-react';
 import { FaRupeeSign } from 'react-icons/fa';
 
 export default function GlobalScaleSection() {
